@@ -97,7 +97,7 @@ bool HGpio::setLOW()
 
 bool HGpio::toggleState()
 {
-    return this->setState(!m_State);
+    this->setState(!m_State);
 }
 
 /*Функция ввода*/
